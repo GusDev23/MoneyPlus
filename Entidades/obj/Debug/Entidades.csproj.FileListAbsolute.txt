@@ -1,0 +1,11 @@
+F:\MoneyPlusSolution\Entidades\bin\Debug\Entidades.dll
+F:\MoneyPlusSolution\Entidades\bin\Debug\Entidades.pdb
+F:\MoneyPlusSolution\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+F:\MoneyPlusSolution\Entidades\obj\Debug\Entidades.dll
+F:\MoneyPlusSolution\Entidades\obj\Debug\Entidades.pdb
+E:\MoneyPlusSolution\Entidades\bin\Debug\Entidades.dll
+E:\MoneyPlusSolution\Entidades\bin\Debug\Entidades.pdb
+E:\MoneyPlusSolution\Entidades\obj\Debug\Entidades.csproj.AssemblyReference.cache
+E:\MoneyPlusSolution\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+E:\MoneyPlusSolution\Entidades\obj\Debug\Entidades.dll
+E:\MoneyPlusSolution\Entidades\obj\Debug\Entidades.pdb

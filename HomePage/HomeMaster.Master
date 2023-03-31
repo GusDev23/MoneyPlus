@@ -1,0 +1,101 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="HomeMaster.master.cs" Inherits="WebAppMoneyPlus.HomePage.HomeMaster" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+    <link href="static/DataTables-1.13.1/datatables.min.css" rel="stylesheet" />
+
+    <link href="static/DataTables-1.13.1/Responsive-2.4.0/css/responsive.bootstrap5.min.css" rel="stylesheet" />
+
+
+
+    <!-- Jquery ui-->
+
+    <link href="../static/jquery-ui-1.12.1.custom/jquery-ui.min.css" rel="stylesheet" />
+
+
+    <link href="../static/bootstrap-5.0.2-dist/css/bootstrap.min.css" rel="stylesheet" />
+
+
+
+    <link href="../static/fontawesome-free-6.2.1-web/css/all.min.css" rel="stylesheet" />
+    <link href="../static/css/tabla_balance.css" rel="stylesheet" />
+
+    <link href="../static/css/main.css" rel="stylesheet" />
+    <link href="../static/css/styles.css" rel="stylesheet" />
+    
+
+    <script src="../static/js/jquery-3.5.1.js" type="text/javascript"></script>
+
+    <script src="../static/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+
+
+    <script src="../static/DataTables-1.13.1/datatables.min.js"></script>
+    <script src="../static/DataTables-1.13.1/Responsive-2.4.0/js/responsive.bootstrap5.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="path/to/chartjs/dist/chart.umd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.2.0/dist/chart.umd.min.js"></script>
+    <link href="../static/toastr/toastr.css" rel="stylesheet" />
+    <script src="../static/toastr/toastr.min.js"></script>
+
+    <script src="../static/js/sweetalert.min.js"></script>
+    <script src="../static/js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="Main_Container pb-0">
+            <div class="navbar navbar-expand-lg navbar-light CoratoBlue" role="navigation">
+            <!-- Nav Bar -->
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a href="" class=" text-decoration-none nav-item fs-3 fw-bold navBarItem_Texto"><img src="../static/img/Logotipo money4.png" alt="Logo" width="40" height="30" class="d-inline-block align-text-top">Money<span style="color: #d4af37 ">+</span></a>
+                <div class="collapse navbar-collapse fs-4" id="navbarScroll">
+                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll  mx-auto" style="--bs-scroll-height: 100px;">
+                        <div class="nav-item NavBar_Item">
+                            <div class="navActiveIndicator"></div>
+                            <div class="navBarItem_Texto">
+                                <a href="Home.aspx" class=""><i class="fa fa-home me-2"></i>Home</a>
+                            </div>
+                        </div>
+                        <div class="nav-item NavBar_Item ">
+                            <div class="navActiveIndicator"></div>
+                            <div class="navBarItem_Texto">
+                                <a href="Nosotros.aspx" class=""><i class="fa fa-users me-2"></i>Nosotros</a>
+                            </div>
+                        </div>
+                        <div class="nav-item NavBar_Item ">
+                            <div class="navActiveIndicator"></div>
+                            <div class="navBarItem_Texto">
+                                <a href="PreguntasFrecuentes.aspx" class=""><i class="fa-solid fa-circle-question me-2"></i>Preguntas frecuentes</a>
+                            </div>
+                        </div>
+                        <div class="nav-item NavBar_Item  ">
+                            <div class="navActiveIndicator"></div>
+                            <div class="navBarItem_Texto">
+                                <a href="../InicioSesion/InicioSesion.aspx" class=""><i class="fa fa-sign-in me-2"></i>Mi cuenta</a>
+                            </div>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </div>  <!-- Termina Nav Bar -->
+        </div>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
